@@ -1,5 +1,5 @@
 /* =========================================================
-   007 Restaurant & Café — Digital Menu
+   Kings Restaurant & Café — Digital Menu
    - عرض المنيو (PDF) باستخدام PDF.js
    - بحث داخل المنيو مع تظليل النتائج
    - لوحة أدمن مرتبطة بـ Google Apps Script

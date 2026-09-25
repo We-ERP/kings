@@ -5,8 +5,8 @@
   const KEY = 'menu007_contacts';
   const defaults = { instagram: 'https://instagram.com/', facebook: 'https://facebook.com/', whatsapp: 'https://wa.me/' };
   let contacts = { ...defaults };
-  let token = sessionStorage.getItem('m007_token') || '';
-  let user = sessionStorage.getItem('m007_user') || '';
+  let token = sessionStorage.getItem('mKings_token') || '';
+  let user = sessionStorage.getItem('mKings_user') || '';
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (v) => String(v || '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;' }[c]));
   const validUrl = (v) => /^(https?:\/\/|tel:)/i.test(String(v || '').trim());

@@ -1,4 +1,4 @@
-/* 007 brand refresh: restored page background and uploaded logo treatment. */
+/* Kings brand refresh: restored page background and uploaded logo treatment. */
 :root {
   --brand-red: #e9003f;
   --brand-red-dark: #9b002a;
@@ -26,6 +26,7 @@ body { background: var(--bg); }
 .contact-link--instagram { background: linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045); }
 .contact-link--facebook { background: #1877f2; }
 .contact-link--whatsapp { background: #16b95a; }
+.contact-link--Mobile { background: #16b95a; }
 .contact-link__icon { font-size: 16px; line-height: 1; }
 .contact-admin { max-width: 480px; margin: 0 auto 20px; padding: 16px; background: #fff; border: 3px solid var(--brand-red); border-radius: 16px; color: #111; }
 .contact-admin h3 { margin: 0 0 10px; color: var(--brand-red-dark); }
