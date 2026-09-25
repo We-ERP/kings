@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000"><title>منيو 007 | مطعم وكافيه</title>
+  <meta name="description" content="منيو 007 مطعم وكافيه - تصفح المنيو كامل وابحث عن أي صنف.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,900;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="branding.css">
+</head>
+<body>
+  <header class="topbar" id="top"><div class="topbar__in">
+    <button class="icon-btn" id="dlBtn" type="button" aria-label="تحميل المنيو PDF" title="تحميل المنيو">↓</button>
+    <span class="topbar__spacer" aria-hidden="true"></span>
+    <button class="icon-btn admin-btn" id="adminBtn" type="button" aria-label="دخول الإدارة" title="الإدارة">♙</button>
+  </div></header>
+
+  <section class="hero hero--logo" aria-label="007 Cafe and Restaurant">
+    <img class="main-logo" src="./logo.png" alt="007 Cafe & Restaurant">
+  </section>
+
+  <main class="viewer" id="viewer"><div class="status" id="status"><div class="spinner"></div><p id="statusText">جاري تحميل المنيو...</p><div class="status__actions" id="statusActions" hidden></div></div><div class="pages" id="pages"></div><iframe class="fallback" id="fallback" title="منيو 007" hidden></iframe></main>
+  <div class="dock" id="dock" hidden></div>
+  <footer class="footer footer--message"><p class="footer__message">مكاننا يكتمل بكم… وذكرياتنا تبدأ من هنا</p><p class="footer__english">Café &amp; Restaurant 007</p><small>الأسعار والأصناف قابلة للتغيير</small></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script><script src="local-viewer.js"></script><script src="contact-ui.js"></script>
+</body>
+</html>
